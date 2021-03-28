@@ -1,0 +1,24 @@
+.HeaderPrincipal{
+    width: 1200px;
+    height: 70px;
+
+    display: flex;
+    justify-content: space-evenly;
+
+    &-Logo{
+        width:70px;
+        height: 40px;
+        margin: 15px 0px;
+    }
+    &-Navigator{
+        width: 50%;
+        height: 60px;
+    }
+    &-NavList{
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
